@@ -1,0 +1,14 @@
+name: Minutesmp
+version: '${project.version}'
+main: de.mrlauchi.minutesmp.Main
+api-version: 1.19
+authors: [ MRLauchi ]
+description: Plugin for the 100 Minute SMP
+
+commands:
+  resettime:
+    description: Resets Timer
+  setend:
+    description: Sets State Of End
+  updatescoreboard:
+    description: Updates Scoreboard for every Player
